@@ -21,14 +21,12 @@
   overflow: hidden;
 }
 
-#git {
-  top: 710px;
+.git {
+  top: 700px;
   left: 360px;
   display: flex;
   position: relative;
   background-color: transparent;
-  text-decoration: none;
-  color: black;
 }
 
 ul {
@@ -37,19 +35,6 @@ ul {
 }
 li {
   list-style: none;
-}
-#humidity {
-  top: -80px;
-  left: -10px;
-  display: flex;
-  position: relative;
-}
-#wind {
-  top: -80px;
-  left: -10px;
-  display: flex;
-  position: relative;
-  display: flex;
 }
 
 .emoji {
@@ -167,7 +152,7 @@ li {
 
 #additional {
   left: -138px;
-  top: -16px;
+  top: -25px;
   margin: 100px auto;
   padding: 20px 10px 20px 10px;
   position: relative;
