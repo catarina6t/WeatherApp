@@ -22,11 +22,28 @@
 }
 
 .git {
-  top: 700px;
-  left: 360px;
+  top: 690px;
+  left: 180px;
+  margin: 10px auto;
+  padding: 6px 1uto;
+  padding: 6px 1px 2px 2px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+}
+.git-button {
   background-color: transparent;
+  border-color: rgb(112, 142, 164);
+}
+.git-link {
+  color: black;
+  text-decoration: none;
+}
+
+.git-link:hover {
+  color: aliceblue;
+  transition: all 200ms ease-in-out;
 }
 
 ul {
@@ -105,7 +122,7 @@ li {
   color: rgb(0, 0, 0);
 }
 .temperature {
-  left: 150px;
+  left: 40px;
   top: -30px;
   margin: 100px auto;
   padding: 20px 10px 20px 10px;
@@ -114,45 +131,41 @@ li {
   font-weight: 600;
   font-size: 120px;
   color: rgb(0, 0, 0);
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
 }
 
 #theCelsius-link {
-  left: 140px;
-  top: -86px;
+  left: 40px;
+  top: -90px;
   margin: 100px auto;
   padding: 20px 10px 20px 10px;
   position: relative;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(0, 0, 0);
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
 }
 #fahrenheit-link {
-  left: 102px;
-  top: -86px;
+  left: 2px;
+  top: -90px;
   margin: 100px auto;
   padding: 20px 10px 20px 10px;
   position: relative;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(0, 0, 0);
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
 }
 #line {
-  left: 124px;
-  top: -88px;
-  margin: 100px auto;
-  padding: 20px 10px 20px 10px;
-  position: relative;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-}
-
-#additional {
-  left: -138px;
-  top: -25px;
+  left: 23px;
+  top: -97px;
   margin: 100px auto;
   padding: 20px 10px 20px 10px;
   position: relative;
@@ -207,8 +220,9 @@ h5 {
 
 #search-text {
   background-color: rgb (231, 210, 191);
-  top: 28px;
-  left: 80px;
+  top: 10px;
+  left: 130px;
+  padding: 2px 20px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -217,8 +231,8 @@ h5 {
   border-color: rgb(132, 162, 183);
 }
 #search-button {
-  top: -2px;
-  left: 286px;
+  top: 10px;
+  left: 130px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -227,10 +241,10 @@ h5 {
 }
 
 #locationButton {
-  top: 14px;
-  left: 82px;
+  top: -20px;
+  left: 191px;
   display: flex;
-  padding: 10px 72px;
+  padding: 1px 9px;
   justify-content: center;
   position: relative;
   background-color: rgb(188, 214, 237);
@@ -238,11 +252,13 @@ h5 {
 }
 
 #place {
-  top: -70px;
+  top: -90px;
   left: -6px;
   display: flex;
   position: relative;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
 }
 
 #currentLocation {
@@ -270,7 +286,7 @@ h5 {
 
 .subtitle1 {
   /* Currently */
-  top: 10px;
+  top: -60px;
   left: 6px;
   margin: 80px auto;
   padding: 6px 1px 2px 2px;
@@ -279,27 +295,29 @@ h5 {
   align-items: center;
   position: relative;
   text-transform: uppercase;
-  font-family: "Jost", sans-serif;
   font-size: 40px;
   font-weight: 600;
   width: 300px;
-  color: black;
-  text-shadow: rgb(145, 183, 210, 0.6) 4px 6px 20px;
+  color: rgb(77, 101, 119);
+  text-shadow: rgb(255, 255, 255) 1px 4px 4px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
 }
 
 .time {
   margin: 80px auto;
   padding: 6px 6px 4px 6px;
-  top: -46px;
+  top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  font-family: "Jost", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
   width: 300px;
-  color: rgb(55, 61, 65);
+  color: rgb(77, 101, 119);
+  text-shadow: rgb(255, 255, 255) 1px 4px 4px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   box-shadow: rgba(0, 0, 0, 0.1) 8px 20px 10px, rgba(0, 0, 0, 0.1) 8px 20px 20px;
   border-radius: 1.25em;
 }
